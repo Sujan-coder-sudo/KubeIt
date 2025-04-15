@@ -1,5 +1,14 @@
-echo "langgraph
-fastapi
-uvicorn
-kubernetes
-prometheus-client" >> requirements.txt
+fastapi==0.109.2
+uvicorn==0.27.0
+pydantic==2.6.4
+python-dotenv==1.0.1
+typing-extensions==4.10.0
+
+langchain-core==0.1.27
+langchain-openai==0.0.8
+langgraph==0.0.17
+
+
+httpx==0.27.0
+loguru==0.7.2
+kubernetes==29.0.0
