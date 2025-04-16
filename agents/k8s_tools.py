@@ -3,7 +3,7 @@ from yaml import safe_dump
 from kubernetes import config, dynamic
 from kubernetes.client import api_client
 from kubernetes.dynamic.exceptions import ResourceNotFoundError
-from langgraph.graph import ToolNode
+from langgraph.prebuilt import ToolNode
 from langchain_core.messages import ToolMessage
 from langchain_core.tools import tool
 
